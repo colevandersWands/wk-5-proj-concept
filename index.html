@@ -1,0 +1,44 @@
+<script src='z-consolemd.js'></script>
+<script src='z-assignment.js'></script>
+<script src='z-testing-tools.js'></script>
+
+<script src='0-log.js'></script>
+<script src='1-read-all.js'></script>
+<script src='2-read-one.js'></script>
+<script src='3-add-todo.js'></script>
+<script src='4-update.js'></script>
+<script src='5-delete.js'></script>
+
+<div>
+  <p> id:
+    <input id='id' value=''></input>
+  </p>
+</div>
+<div>
+  <p> body:
+    <input id='body' value=''></input>
+  </p>
+</div>
+<div>
+  <button onclick="view_log_handler()">view log</button>
+</div>
+<div>
+  <button onclick="read_all_handler()">read all</button>
+</div>
+<div>
+  <button onclick="read_one_handler()">read one: </button> input an id
+</div>
+<div>
+  <button onclick="add_todo_handler()">add todo: </button> input a body
+</div>
+<div>
+  <button onclick="update_handler()">update: </button> input an id & body
+</div>
+<div>
+  <button onclick="delete_handler()">delete: </button> input an id
+</div>
+<br>
+<div id='output-div'></div>
+<br>
+<hr>
+<a href="../index.html">back to index</a>
