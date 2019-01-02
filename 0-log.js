@@ -13,7 +13,7 @@ console.log('\t(documentation goes here)')
 console.log.raw('view_log_handler( )');
 console.log('\t(documentation goes here)')
   function view_log_handler() {
-    console.log(log);
+    console.log('log: ', log);
   }
 
   function copy(obj) {
