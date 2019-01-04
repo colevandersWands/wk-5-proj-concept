@@ -77,3 +77,7 @@ console.log('\n## 4: update one');
       add_log_entry(new_entry);
 
     }
+
+    
+  const update_button = document.getElementById('update');
+  update_button.addEventListener('click', update_handler);

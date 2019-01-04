@@ -60,3 +60,7 @@ console.log('\t(documentation goes here)')
     add_log_entry(new_entry);
 
   }
+
+    
+  const read_one_button = document.getElementById('read-one');
+  read_one_button.addEventListener('click', read_one_handler);

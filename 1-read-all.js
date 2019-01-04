@@ -44,3 +44,7 @@ console.log('\n## 1: read all');
       add_log_entry(new_entry);
 
     }
+    
+  const read_all_button = document.getElementById('read-all');
+  read_all_button.addEventListener('click', read_all_handler);
+

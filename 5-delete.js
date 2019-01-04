@@ -65,3 +65,7 @@ console.log('\n## 5: delete one');
       add_log_entry(new_entry);
 
     }
+
+    
+  const delete_button = document.getElementById('delete');
+  delete_button.addEventListener('click', delete_handler);

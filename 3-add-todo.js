@@ -52,3 +52,7 @@ console.log('\n## 3: add todo');
       add_log_entry(new_entry);
 
     }
+
+    
+  const add_todo_button = document.getElementById('add-todo');
+  add_todo_button.addEventListener('click', add_todo_handler);
